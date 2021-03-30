@@ -1,0 +1,98 @@
+
+{
+    "demandeur":
+    {
+        "nom": "nom",
+        "prenom": "prenom",
+        "phone": "phone",
+        "solde":"500",
+        "successfull_searches":"",
+        "packs":[
+            {
+                "pack_id":"",
+                "used":"false",
+                "purchase_date":""
+            }
+        ]
+    },
+    "annonceur":
+    {
+        "profile_pic":"",
+        "birthdate":"",
+        "phone":"phone",
+        "nom":"nom",
+        "prenom":"prenom",
+        "competences":[
+            {
+
+            "categorie":"categorie",
+            "description":"",
+            "available":"available",
+            "pictures":[],
+            "place":
+            {
+                "fixed": true,
+                "location":["lat","long"]
+            }
+            }
+        ]
+
+    },
+    "alertes":{
+       "user_id":"user_id",
+       "categorie":"categorie",
+       "perimeter":"perimeter"
+    },
+    "recharges":[
+        {
+            "user_id":"user_id",
+            "amount":"amount",
+            "source":"",
+            "success":"false",
+            "operation_id":""
+        }
+    ],
+    "transferts":[
+        {
+            "user_id":"user_id",
+            "amount":"amount",
+            "receiver_id":"",
+            "success":"false"
+        }
+    ],
+    "notes":[
+        { 
+            "value":"value",
+            "user_id":"user_id",
+            "annonceur_id":"id",
+            "commentaire":""
+        }
+    ],
+    "recommandations":[
+        {
+            "user_id":"user_id",
+            "annonceur_id":"annonceur_id "
+        }
+    ],
+    "categories":[
+        {
+            "id":"id",
+            "label":"label"
+        }
+    ],
+    "pack":[
+        {
+            "label":"label",
+            "validity":"validity",
+            "cost":"",
+            "successfull_research":20
+        }
+    ],
+    "signalements":[
+        {
+            "user_id":"user_id",
+            "annonceur_id":"id",
+            "commentaire":""
+        }
+    ]
+}
